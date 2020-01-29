@@ -21,8 +21,8 @@ class Circle
 
   draw()
   {
-    noStroke()
-    fill(color("yellow"))
+    stroke("yellow")
+    noFill()
     ellipse(this.x, this.y, this.r*2)
   }
 }
