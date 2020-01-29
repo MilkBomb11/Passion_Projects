@@ -6,3 +6,4 @@ Side projects I made as a hobby
 - Grid Draw : Parses code from input bar and draws pixel art on grid. More of it over here : https://github.com/MilkBomb11/GridDraw
 - Fourier Transform : User can draw thing with mouse and the computer imitates the drawing using fourier transform.
 - Mine Sweeper: Mine sweeper game. Press space to change between "excavate" mode and "mark" mode.
+- Sine Wave : Sine wave visualization with oscillatng objects
