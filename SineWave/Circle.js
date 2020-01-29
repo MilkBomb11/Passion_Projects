@@ -15,7 +15,7 @@ class Circle
 
   update()
   {
-    this.y = map(sin(this.seta + this.offset), -1, 1, this.minYOffset+this.originY, this.maxYOffset+this.originY)
+    this.y = map(sin(-1/2*this.seta + this.offset), -1, 1, this.minYOffset+this.originY, this.maxYOffset+this.originY)
     this.seta += 0.1
   }
 

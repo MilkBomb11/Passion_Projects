@@ -15,7 +15,7 @@ class Bar
 
   update()
   {
-    this.h = map(sin(this.seta + this.offset), -1, 1, this.minH, this.maxH)
+    this.h = map(sin(-this.seta + this.offset), -1, 1, this.minH, this.maxH)
     this.seta += 0.1
   }
 

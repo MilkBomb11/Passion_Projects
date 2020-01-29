@@ -35,6 +35,16 @@ class Wave
       this.bars[i].draw()
       this.circles[i].draw()
     }
+
+    noFill()
+    stroke("magenta")
+    strokeWeight(2)
+    beginShape()
+    for (let i = 0; i < this.circles.length; i++)
+    {
+      curveVertex(this.circles[i].x, this.circles[i].y)
+    }
+    endShape()
   }
 
 
