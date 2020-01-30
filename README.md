@@ -8,3 +8,4 @@ Side projects I made as a hobby
 - Mine Sweeper: Mine sweeper game. Press space to change between "excavate" mode and "mark" mode.
 - Sine Wave : Sine wave visualization with oscillatng objects
 - Genetic Algorithm : An algorithm that simulates Darwin's theory of evolution using text.
+- Curve Table : Lissajous Curve Table in P5.js.
