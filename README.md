@@ -7,4 +7,4 @@ Side projects I made as a hobby
 - Fourier Transform : User can draw thing with mouse and the computer imitates the drawing using fourier transform.
 - Mine Sweeper: Mine sweeper game. Press space to change between "excavate" mode and "mark" mode.
 - Sine Wave : Sine wave visualization with oscillatng objects
-- Genetic Algorithm : An algorithm that simulates Darwin's theory of evolution using text
+- Genetic Algorithm : An algorithm that simulates Darwin's theory of evolution using text.
