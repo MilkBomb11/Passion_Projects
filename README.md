@@ -9,3 +9,4 @@ Side projects I made as a hobby
 - Sine Wave : Sine wave visualization with oscillatng objects
 - Genetic Algorithm : An algorithm that simulates Darwin's theory of evolution using text.
 - Curve Table : Lissajous Curve Table in P5.js.
+- Ray Casting : Ray casting.
