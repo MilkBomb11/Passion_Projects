@@ -10,4 +10,4 @@ Side projects I made as a hobby
 - Genetic Algorithm : An algorithm that simulates Darwin's theory of evolution using text.
 - Curve Table : Lissajous Curve Table in P5.js.
 - Ray Casting : Mouse to draw boundaries. Press space to switch mode to raycast mode. Use slider to change the vision range of ray cast
-- Universe : A virtual universe obeying Newton's law of motion, the law of conservation of momentum, and the law of conservation of mass. Click mouse to create planets and mouse wheel to set each of their mass.
+- Universe : A virtual universe obeying the law of universal gravitation, Newton's law of motion, the law of conservation of momentum, and the law of conservation of mass. Click mouse to create planets and mouse wheel to set each of their mass.
