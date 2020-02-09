@@ -62,6 +62,7 @@ class Planet
         
         fill(255);
         textAlign(CENTER, CENTER);
+        textSize(10);
         text(str(this.radius) + "m\n" + str(this.mass) + "kg", this.displacement.x, this.displacement.y, 20, 40);
     }
 }
