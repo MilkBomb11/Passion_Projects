@@ -1,14 +1,14 @@
 let winW, winH;
 let pm;
+let pen;
 let G = 10;
-let currentRadius = 30;
 let pause = "paused";
 
 function setup() {
     winW = windowWidth;
     winH = windowHeight;
 
-    pm = new PlanetManager(30);
+    pm = new PlanetManager();
     pen = new Pen();
 
     createCanvas(winW, winH);
@@ -16,20 +16,14 @@ function setup() {
 
 function draw() {
     background("black");
-
-    noFill();
-    stroke(255);
-    ellipse(mouseX, mouseY, currentRadius*2);
+    pen.draw();
     
     fill("yellow");
     textSize(20);
     textAlign(LEFT, TOP);
     text("status : " + pause, 5, 5)
 
-    if (pause !== "paused")
-    {
-        pm.update();
-    }
+    pm.update();
     pm.draw();
 }
 
@@ -52,9 +46,7 @@ function mouseClicked()
 
 function mouseWheel(event)
 {
-    let changeRate = map(event.delta, -250, 250, -5, 5);
-    currentRadius += changeRate;
-    console.log(currentRadius);
+    pen.setRadius(event);
 }
 
 function keyPressed()
@@ -63,6 +55,10 @@ function keyPressed()
     {
         if (pause === "paused")
         {
+            for (let i = 0; i < pm.planets.length; i++)
+            {
+                pm.planets[i].mode = "simulate"
+            }
             pause = "simulation";
         }
         else

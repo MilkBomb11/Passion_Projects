@@ -1,6 +1,6 @@
 class Planet 
 {
-    constructor(x, y, radius, mass, initialVelocity, n) 
+    constructor(x, y, radius, mass, initialVelocity, n, product) 
     {
         this.displacement = createVector(x, y);
         this.velocity = createVector(initialVelocity.x, initialVelocity.y);
@@ -11,14 +11,34 @@ class Planet
         this.n = n;
 
         this.resultant = createVector();
+
+        if (!product)
+        {
+            this.mode = "setVelocity"; // setVelocity, pause, simulate
+            this.initVeloctiyPoint = {x:0,y:0};
+        }
+        else
+        {
+            this.mode = "simulate";
+        }
+
+        
     }
 
     update() 
     {
-        this.calculateUniversalGravitionsOfOthers();
-        this.acceleration = p5.Vector.div(this.resultant, this.mass);
-        this.velocity.add(this.acceleration);
-        this.displacement.add(this.velocity);
+        if (this.mode === "simulate")
+        {
+            this.calculateUniversalGravitionsOfOthers();
+            this.acceleration = p5.Vector.div(this.resultant, this.mass);
+            this.velocity.add(this.acceleration);
+            this.displacement.add(this.velocity);
+        }
+        else if (this.mode === "setVelocity")
+        {
+            this.initVeloctiyPoint.x = mouseX;
+            this.initVeloctiyPoint.y = mouseY;
+        } 
     }
 
     calculateUniversalGravition(other)
@@ -54,6 +74,13 @@ class Planet
                     other.displacement.y) < this.radius+other.radius;
     }
 
+    setVelocity()
+    {
+        this.velocity = createVector( this.initVeloctiyPoint.x - this.displacement.x, this.initVeloctiyPoint.y - this.displacement.y );
+        this.velocity.div(10);
+        this.mode = "pause";
+    }
+
     draw() 
     {
         noFill();
@@ -64,5 +91,12 @@ class Planet
         textAlign(CENTER, CENTER);
         textSize(10);
         text(str(this.radius) + "m\n" + str(this.mass) + "kg", this.displacement.x, this.displacement.y, 20, 40);
+
+        if (this.mode !== "simulate")
+        {
+            noFill();
+            stroke(255, 255, 0);
+            line(this.displacement.x, this.displacement.y, this.initVeloctiyPoint.x, this.initVeloctiyPoint.y);
+        }
     }
 }
