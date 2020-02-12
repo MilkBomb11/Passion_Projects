@@ -11,3 +11,4 @@ Side projects I made as a hobby
 - Curve Table : Lissajous Curve Table in P5.js.
 - Ray Casting : Mouse to draw boundaries. Press space to switch mode to raycast mode. Use slider to change the vision range of ray cast
 - Universe : A virtual universe obeying the law of universal gravitation, Newton's law of motion, the law of conservation of momentum, and the law of conservation of mass. Click mouse to create planets, set their initial velocity, and mouse wheel to set each of their mass. Press space bar to start simulation and end simulation.
+- Simple Pendulum : Creates 2 ~ 9 pendulums attached on a single pivot, each having random initial angles, radius(mass/2), arm length.
