@@ -12,4 +12,4 @@ Side projects I made as a hobby
 - Ray Casting : Mouse to draw boundaries. Press space to switch mode to raycast mode. Use slider to change the vision range of ray cast
 - Universe : A virtual universe obeying the law of universal gravitation, Newton's law of motion, the law of conservation of momentum, and the law of conservation of mass. Click mouse to create planets, set their initial velocity, and mouse wheel to set each of their mass. Press space bar to start simulation and end simulation.
 - Simple Pendulum : Creates 2 ~ 9 pendulums that obey the laws of physics, attached on a single pivot, each having a random initial angle, radius(mass/2), and arm length.
-- Landscape : Generates natural landscape using Perlin noise. Tried to implement flying over the terrain but failed due to limits of p5.js WEBGL. So there is a Processing(Java) version of it in the "landscape" folder of the "Landscape" folder.
+- Landscape : Generates natural landscape using Perlin noise. Tried to implement flying over the terrain but failed due to limits of p5.js WEBGL. So there is an unlaggy Processing(Java) version of it in the "landscape" folder of the "Landscape" folder.
