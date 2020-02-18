@@ -14,3 +14,8 @@ Side projects I made as a hobby
 - Simple Pendulum : Creates 2 ~ 9 pendulums that obey the laws of physics, attached on a single pivot, each having a random initial angle, radius(mass/2), and arm length.
 - Landscape : Generates natural landscape using Perlin noise. Tried to implement flying over the terrain but failed due to limits of p5.js WEBGL. So there is an unlaggy Processing(Java) version of it in the "landsape" folder of the "Landscape" folder.
 - Number Pyramid : Generates a pyramid with N floors where each floor is an arithmetic sequence and each sequence's first element, common difference, and length is N. (N can be controlled in code)
+
+## How to run
+1. Install Atom (alt : VSCode)
+2. Install atom-live-server (alt : Live Server (VSCode extension))
+3. Run server
