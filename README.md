@@ -15,6 +15,7 @@ Side projects I made as a hobby
 - Landscape : Generates natural landscape using Perlin noise. Tried to implement flying over the terrain but failed due to limits of p5.js WEBGL. So there is an unlaggy Processing(Java) version of it in the "landsape" folder of the "Landscape" folder.
 - Number Pyramid : Generates a pyramid with N floors where each floor is an arithmetic sequence and each sequence's first element, common difference, and length is N. (N can be controlled in code)
 - Link Net : Draws N sets each having n nodes. Each node is connected to every node of the set next to the set which it is contained in.
+- Laser : There are 2 modes : "make" and "simulate". In "make" mode, draw walls that can reflect lasers. In simulate mode, control a laser cannon and shoot lasers. Switch between modes by pressing space.
 
 ## How to run
 1. Install Atom (alt : VSCode)
