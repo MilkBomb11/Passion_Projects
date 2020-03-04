@@ -16,6 +16,7 @@ Side projects I made as a hobby
 - Number Pyramid : Generates a pyramid with N floors where each floor is an arithmetic sequence and each sequence's first element, common difference, and length is N. (N can be controlled in code)
 - Link Net : Draws N sets each having n nodes. Each node is connected to every node of the set next to the set which it is contained in.
 - Laser : There are 2 modes : "make" and "simulate". In "make" mode, draw walls that can reflect lasers. In simulate mode, control a laser cannon and shoot lasers. Switch between modes by pressing space.
+- PolarCoordinate : Visualizes a sequence of vectors where the nth term is (n, n) in a polar coordinate system.
 
 ## How to run
 1. Install Atom (alt : VSCode)
