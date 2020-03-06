@@ -17,6 +17,7 @@ Side projects I made as a hobby
 - Link Net : Draws N sets each having n nodes. Each node is connected to every node of the set next to the set which it is contained in.
 - Laser : There are 2 modes : "make" and "simulate". In "make" mode, draw walls that can reflect lasers. In simulate mode, control a laser cannon and shoot lasers. Switch between modes by pressing space.
 - PolarCoordinate : Visualizes a sequence of vectors where the nth term is (n, n) in a polar coordinate system.
+- TerrainGeneration : Creates a randomly generated natural-looking terrain with Perlin noise. With your mouse you can rotate(left mouse button), zoom(right mouse button), and pan(middle mouse button(Press the wheel itself)) the view.
 
 ## How to run
 1. Install Atom (alt : VSCode)
