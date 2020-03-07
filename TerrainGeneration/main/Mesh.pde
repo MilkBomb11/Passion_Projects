@@ -24,10 +24,10 @@ class Mesh
     {
       for (int j = 0; j < this.cols; j++)
       {
-        this.zIndexes[i][j] = noise(xoff, yoff)*this.maxHeight;
-        xoff += octave;
+        this.zIndexes[i][j] = map(noise(xoff, yoff), 0, 1, -this.maxHeight, this.maxHeight);
+        xoff += this.octave;
       }
-      yoff += octave;
+      yoff += this.octave;
       xoff = 0;
     }
 

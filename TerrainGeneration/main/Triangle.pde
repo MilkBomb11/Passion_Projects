@@ -15,25 +15,25 @@ class Triangle
 
   void updateColor()
   {
-    if (this.centerOfMassZ > 250)
+    if (this.centerOfMassZ > 150)
     {
-      this.c = new Color(255, 255, 255, 255);
+      this.c = WHITE;
     }
-    else if (this.centerOfMassZ > 200)
+    else if (this.centerOfMassZ > 50)
     {
-      this.c = new Color(133, 133, 133, 255);
+      this.c = GREY;
     }
-    else if (this.centerOfMassZ > 150)
+    else if (this.centerOfMassZ > -100)
     {
-      this.c = new Color(222, 163, 100, 255);
+      this.c = BROWN;
     }
-    else if (this.centerOfMassZ > 100)
+    else if (this.centerOfMassZ > -150)
     {
-      this.c = new Color(126, 137, 214);
+      this.c = LIGHT_BLUE;
     }
     else
     {
-      this.c = new Color(67, 72, 176);
+      this.c = BLUE;
     }
   }
 
