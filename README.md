@@ -20,4 +20,4 @@ Side projects I made as a hobby
 - TerrainGeneration : Creates a randomly generated natural-looking terrain with Perlin noise. With your mouse you can rotate(left mouse button), zoom(right mouse button), and pan(middle mouse button(Press the wheel itself)) the view.
   - Credits : The camera functionality was possible thanks to [Peasycam by Jonathan Feinberg](http://mrfeinberg.com/peasycam/).
 - PixelManipulation : Manipulates a photo's pixel and displays a new photo with cool effects on it.
-- Cannon : A cannon that can shoot a cannonball that obeys Newton's law of motion, its trajectory determined by the cannon's angle and power. You can control the size of gravity, mass of a cannonball, and the power of the cannon via the sliders.
+- Cannon : A cannon that can shoot a cannonball that obeys Newton's law of motion, its trajectory determined by the cannon's angle and power. You can control the size of gravity, mass of a cannonball, and the power of the cannon via sliders.
