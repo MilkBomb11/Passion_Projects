@@ -19,3 +19,4 @@ Side projects I made as a hobby
 - PolarCoordinate : Visualizes a sequence of vectors where the nth term is (n, n) in a polar coordinate system.
 - TerrainGeneration : Creates a randomly generated natural-looking terrain with Perlin noise. With your mouse you can rotate(left mouse button), zoom(right mouse button), and pan(middle mouse button(Press the wheel itself)) the view.
   - Credits : The camera functionality was possible thanks to [Peasycam by Jonathan Feinberg](http://mrfeinberg.com/peasycam/).
+- PixelManipulation : Manipulates a photo's pixel and displays a new photo with cool effects on it.
