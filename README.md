@@ -21,3 +21,4 @@ Side projects I made as a hobby
   - Credits : The camera functionality was possible thanks to [Peasycam by Jonathan Feinberg](http://mrfeinberg.com/peasycam/).
 - PixelManipulation : Manipulates a photo's pixel and displays a new photo with cool effects on it.
 - Cannon : A cannon that can shoot a cannonball that obeys Newton's law of motion, its trajectory determined by the cannon's angle and power. You can control the size of gravity, mass of a cannonball, and the power of the cannon via sliders.
+- Conway : "Conway's game of life" simulator. Use mouse to place cells and press space to start simulation. More about conway's game of life can be found [here](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
