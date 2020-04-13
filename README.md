@@ -24,3 +24,4 @@ Side projects I made as a hobby
 - Conway : "Conway's game of life" simulator. Use mouse to place cells and press space to start simulation. More about conway's game of life can be found [here](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 - CirclesColliding : Circles colliding each other. Some of the circles sometimes get stuck to each other and sadly I'm not a genius so I have no clue how to solve it.
 - Oscillation : Things moving in a synchronous oscillating behavior to create cool patterns.
+- Bezier : A quadratic bezier curve generation algorithm. You can play around with the curve using mouse.
