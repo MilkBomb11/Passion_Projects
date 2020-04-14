@@ -19,7 +19,7 @@ class Group
         {
             this.oscillators[i].update();
         }
-        //this.dir += 0.01;
+        this.dir += 0.05;
     }
 
     draw()

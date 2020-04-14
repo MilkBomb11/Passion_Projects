@@ -10,7 +10,8 @@ function setup() {
         new Group(winW/4, winH/4, 3, 50, 5, 8), // x, y, oN, oSize, oSpeed, oPeriod
         new Group(winW*(3/4), winH/4, 4, 50, 5, 8),
         new Group(winW/4, winH*(3/4), 5, 50, 5, 8),
-        new Group(winW*(3/4), winH*(3/4), 6, 50, 5, 8)
+        new Group(winW*(3/4), winH*(3/4), 6, 50, 5, 8),
+        new Group(winW/2, winH/2, 7, 50, 5, 8)
     ]
 
     createCanvas(winW, winH);

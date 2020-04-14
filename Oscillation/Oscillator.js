@@ -26,7 +26,8 @@ class Oscillator
         push();
         translate(this.displacement.x, this.displacement.y);
         rotate(this.dir);
-        rect(-this.size/2, -this.size/2, this.size, this.size);
+        //rect(-this.size/2, -this.size/2, this.size, this.size);
+        rect(0, 0, this.size, this.size);
         pop();
     }
 
