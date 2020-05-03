@@ -25,3 +25,4 @@ Side projects I made as a hobby
 - CirclesColliding : Circles colliding each other. Some of the circles sometimes get stuck to each other and sadly I'm not a genius so I have no clue how to solve it.
 - Oscillation : Things moving in a synchronous oscillating behavior to create cool patterns.
 - Bezier : A quadratic bezier curve generation algorithm. You can play around with the curve using mouse.
+- FunctionVisualizer : Visualizes mathematical functions on a cartesian coordinate system.
