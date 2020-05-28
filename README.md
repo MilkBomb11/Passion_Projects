@@ -26,3 +26,4 @@ Side projects I made as a hobby
 - Oscillation : Things moving in a synchronous oscillating behavior to create cool patterns.
 - Bezier : A quadratic bezier curve generation algorithm. You can play around with the curve using mouse.
 - FunctionVisualizer : Visualizes mathematical functions on a cartesian coordinate system.
+- SlitScan : Slit-scan effect in p5.js.
