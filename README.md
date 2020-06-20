@@ -27,4 +27,4 @@ Side projects I made as a hobby
 - Bezier : A quadratic bezier curve generation algorithm. You can play around with the curve using mouse.
 - FunctionVisualizer : Visualizes mathematical functions on a cartesian coordinate system.
 - SlitScan : Slit-scan effect in p5.js.
-- TangentsOfCircle : Draws every line that is tangent to the circle and passes through the coordinate of the mouse on a cartesian coordinate system. Use mouse wheel to change the circle's radius and use WASD  
+- TangentsOfCircle : Draws every line that is tangent to the circle and passes through the coordinate of the mouse on a cartesian coordinate system. Use mouse wheel to change the circle's radius and use WASD to move the circle.
