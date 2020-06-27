@@ -28,3 +28,4 @@ Side projects I made as a hobby
 - FunctionVisualizer : Visualizes mathematical functions on a cartesian coordinate system.
 - SlitScan : Slit-scan effect in p5.js.
 - TangentsOfCircle : Draws every line that is tangent to the circle and passes through the coordinate of the mouse on a cartesian coordinate system. Use mouse wheel to change the circle's radius and use WASD to move the circle.
+- ScreenRecorder : Records screen and replays it. You can toggle between record mode and replay mode by pressing 'X'. Player can be controlled with WASD or arrow keys.
