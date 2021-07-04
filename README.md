@@ -32,3 +32,4 @@ Side projects I made as a hobby
 - protein_synthesis : Gets the length of the nucleic sequence and the nucleic sequence itself as the input. Prints out the transcripted and the translated version of the DNA. (Didn't implemented initiation and termination.)
 - Protein Synthesis : p5.js version of protein_synthesis.
 - EvolutionSimulation : Simulates Darwin's theory of Natural Selection. There is a button that can, when pressed, simulate overproduction and mutation by making the existing entities reproduce, and a one that can simulate survival of the fittest.
+- Elasticity : A spinning spring contraption that is affected by elasticity only.(Gravity is ignored)
