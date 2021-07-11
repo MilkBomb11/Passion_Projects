@@ -5,7 +5,6 @@ class Population
     this.x = x
     this.y = y
     this.entities = []
-    this.nextGenCandidates = []
     this.populationNum = n
     this.mutationRate = mutationRate
     this.generation = 0
@@ -52,18 +51,6 @@ class Population
     }
   }
 
-  createParentCandidates()
-  {
-    this.nextGenCandidates = []
-    for (let i = 0; i < this.entities.length; i++)
-    {
-      for (let j = 0; j < Math.pow(this.entities[i].fitness, 5); j++)
-      {
-        this.nextGenCandidates.push(this.entities[i].text)
-      }
-    }
-  }
-
   recreatePopulation()
   {
     let p1 = this.getBestEntityText()
@@ -100,9 +87,14 @@ class Population
     {
       this.entities[i].draw(this.x, this.y + i*25)
     }
-    text(this.generation, 5, 20)
+    textSize(20);
+    text("Generation: " + str(this.generation), 10, 40)
 
-    textSize(40)
-    text(this.getBestEntityText(), 10, 70, 400, 100)
+    textSize(30);
+    fill("magenta");
+    text("Fittest Entity ⇩", 10, 90);
+    fill("yellow");
+    textSize(40);
+    text(this.getBestEntityText(), 10, 140);
   }
 }
