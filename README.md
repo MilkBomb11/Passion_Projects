@@ -33,3 +33,4 @@ Side projects I made as a hobby
 - Protein Synthesis : p5.js version of protein_synthesis.
 - EvolutionSimulation : Simulates Darwin's theory of Natural Selection. There is a button that can, when pressed, simulate overproduction and mutation by making the existing entities reproduce, and a one that can simulate survival of the fittest.
 - Elasticity : A spinning spring contraption that is affected by elasticity only.(Gravity is ignored)
+- Orbit: A simulation of a planet orbiting a star. You can change the initial velocity and initial distance between the planet and the star and fiddle with it.
