@@ -1,0 +1,31 @@
+//let f = func x (
+//    let g = func y (x+y) in
+//    g[10]
+//) 
+//in
+//(
+//    if f [5] == 25 then print("No!")
+//    else print ("Yeah!")
+//)
+
+//let list = 5::nil in
+//(
+//    let f = func l
+//    (
+//        letrec range n =
+//        (
+//        if (n < 0) then l
+//        else  n::range[(n-1)]
+//        )
+//        in
+//        range[10]
+//    )
+//    in f[list]
+//)
+
+let x = ref (5::8::nil) in
+let y = 10 in
+if ~(y >= 7) then
+    x := (!x@!x); !x
+else
+    x := (5::!x); !x

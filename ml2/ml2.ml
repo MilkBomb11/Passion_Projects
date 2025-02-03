@@ -170,6 +170,7 @@ class scanner ((src:string)) = object(self)
     Hashtbl.add keywords "tail" TOKEN_TAIL;
     Hashtbl.add keywords "is_nil" TOKEN_ISNIL;
     Hashtbl.add keywords "is_zero" TOKEN_ISZERO;
+    Hashtbl.add keywords "ref" TOKEN_REF;
 
 
   method scanTokens():unit =
@@ -348,7 +349,7 @@ class parser (toks: token Array.t) = object(self)
     done); !expr
 
   method unary():expression =
-    if (self#isMatch([TOKEN_BANG;TOKEN_TILDE;TOKEN_MINUS;TOKEN_ISNIL;TOKEN_REF;TOKEN_ISZERO;TOKEN_HEAD;TOKEN_TAIL])) then
+    if (self#isMatch([TOKEN_BANG;TOKEN_TILDE;TOKEN_MINUS;TOKEN_ISNIL;TOKEN_REF;TOKEN_ISZERO;TOKEN_HEAD;TOKEN_TAIL;TOKEN_PRINT])) then
       let operator = self#previous() in
       let right = self#unary() in
       (self#unary_to_exp operator right)
