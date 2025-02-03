@@ -2,7 +2,7 @@ Ml2 is a dynamically typed toy functional programming language based on ocaml an
 
 <how to run>
 1. install ocaml
-2. install ml2.ml
+2. download ml2.ml
 3. in the command line, type ocaml [path to ml2.ml] [path to source file]
 
 <comment>
