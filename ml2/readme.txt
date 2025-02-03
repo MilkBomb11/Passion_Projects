@@ -69,6 +69,7 @@ func {id} {expr}                                                 -> evaluates to
 {number}      -> {digit}{digit}*('.'{digit}{digit}*)?
 {digit}       -> ['0'-'9']
 {string}      -> {character}*
+{character}   -> . | '\n'
 {id}          -> ('_'|{alphabet}) ('_'|{digit}|{alphabet})*
 {alphabet}    -> ['a'-'z'] | ['A'-'Z']
 {location}    -> {digit}{digit}*
