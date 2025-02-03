@@ -6,7 +6,7 @@ Ml2 is a dynamically typed toy functional programming language based on ocaml an
 3. in the command line, type ocaml [path to ml2.ml] [path to source file]
 
 <comment>
-// -> single line comment.
+// -> single line comment. 
 
 <values>
 Unit      -> unit value identical to ocaml's unit.
