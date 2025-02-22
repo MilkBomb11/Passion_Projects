@@ -35,5 +35,6 @@ Side projects I made as a hobby
 - Elasticity : A spinning spring contraption that is affected by elasticity only.(Gravity is ignored)
 - Orbit: A simulation of a planet orbiting a star. You can change the initial velocity and initial distance between the planet and the star and fiddle with it.
 - Gird_Filling: Left-click land squares to turn them into water and vice versa. Right-click to plant grass on a land square. Grass will spread until it meets water.
-- ml2: Lexer, parser, interpreter for a toy language.
+- ml2: Lexer, parser, interpreter for a functional toy language inspired by Ocaml.
 - regex_parser: Given a source text file with the format [test_string]|[regex], it will return if the test string is one that the regex recognizes. The regex parser generates a nondeterministic finite automata with the regular expression it was provided. Then, it tests whether the finite automata can reach the end when the test string is given as input. The C++ version uses vectors for the dynamic array of transitions each node of the finite automata has whereas the C version uses a dynamically allocated stack. This means creating new transitions for nodes, the C++ version has an amortized O(1) time complexity while the C version has O(1) time complexity. So theoretically, the C version should be faster, the margin of which I don't know the significance of.
+- stack_lang: Lexer, compiler, virtual machine for an imperative toy language inspired by C. 
