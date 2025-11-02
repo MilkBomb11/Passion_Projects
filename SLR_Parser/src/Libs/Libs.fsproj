@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Cfg.fs" />
+    <Compile Include="First.fs" />
+    <Compile Include="Follow.fs" />
+    <Compile Include="Dfa.fs" />
+    <Compile Include="Table.fs" />
+  </ItemGroup>
+
+</Project>

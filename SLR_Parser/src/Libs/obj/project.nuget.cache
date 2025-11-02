@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gDzdVD/fOd0=",
+  "success": true,
+  "projectFilePath": "/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/Libs.fsproj",
+  "expectedPackageFiles": [
+    "/home/milkbomb/.nuget/packages/fsharp.core/8.0.403/fsharp.core.8.0.403.nupkg.sha512"
+  ],
+  "logs": []
+}

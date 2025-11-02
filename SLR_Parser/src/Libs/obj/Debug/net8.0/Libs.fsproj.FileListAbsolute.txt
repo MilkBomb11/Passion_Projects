@@ -1,0 +1,14 @@
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/bin/Debug/net8.0/Libs.deps.json
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/bin/Debug/net8.0/Libs.dll
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/bin/Debug/net8.0/Libs.pdb
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/bin/Debug/net8.0/Libs.xml
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.fsproj.AssemblyReference.cache
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.AssemblyInfoInputs.cache
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.AssemblyInfo.fs
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.fsproj.CoreCompileInputs.cache
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.dll
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/refint/Libs.dll
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.xml
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.pdb
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/ref/Libs.dll
+/media/milkbomb/USB STICK/fsharp_projects/SLR_Parser/src/Libs/obj/Debug/net8.0/Libs.sourcelink.json
